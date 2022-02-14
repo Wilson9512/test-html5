@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #info {
+            background-color: rgba(0, 183, 255, 0.53);
+        }
+
+        #info:focus {
+            background-color: rgba(255, 196, 78, 0.75);
+        }
+    </style>
+</head>
+<body>
+<div id="info" contenteditable="true">
+    contentEditable屬性
+</div>
+<script>
+    const info = document.querySelector('#info');
+
+
+    info.addEventListener('keyup', () => {
+        //console.log(info.innerHTML);
+        console.log(info.innerText);
+        localStorage.setItem('mydata', info.innerText);
+    });
+
+    const defaultData = localStorage.getItem('mydata');
+    if (defaultData) {
+        info.innerText = defaultData;
+    }
+
+    info.addEventListener('click', () => {
+        localStorage.removeItem('mydata');
+    });
+</script>
+</body>
+</html>

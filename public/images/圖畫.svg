@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+        width="210mm"
+        height="297mm"
+        viewBox="0 0 210 297"
+        version="1.1"
+        id="svg5"
+        inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+        sodipodi:docname="圖畫.svg"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:svg="http://www.w3.org/2000/svg">
+    <sodipodi:namedview
+            id="namedview7"
+            pagecolor="#ffffff"
+            bordercolor="#666666"
+            borderopacity="1.0"
+            inkscape:pageshadow="2"
+            inkscape:pageopacity="0.0"
+            inkscape:pagecheckerboard="0"
+            inkscape:document-units="mm"
+            showgrid="false"
+            inkscape:zoom="0.55589226"
+            inkscape:cx="42.274379"
+            inkscape:cy="561.25984"
+            inkscape:window-width="1440"
+            inkscape:window-height="900"
+            inkscape:window-x="0"
+            inkscape:window-y="0"
+            inkscape:window-maximized="0"
+            inkscape:current-layer="layer1"/>
+    <defs
+            id="defs2">
+        <linearGradient
+                inkscape:collect="always"
+                id="linearGradient1183">
+            <stop
+                    style="stop-color:#ffff00;stop-opacity:1;"
+                    offset="0"
+                    id="stop1179"/>
+            <stop
+                    style="stop-color:#ffff00;stop-opacity:0;"
+                    offset="1"
+                    id="stop1181"/>
+        </linearGradient>
+        <radialGradient
+                inkscape:collect="always"
+                xlink:href="#linearGradient1183"
+                id="radialGradient1187"
+                cx="281.31363"
+                cy="161.64096"
+                fx="281.31363"
+                fy="161.64096"
+                r="330.69318"
+                gradientTransform="matrix(1,0,0,0.95819638,0,6.7571767)"
+                gradientUnits="userSpaceOnUse"/>
+    </defs>
+    <g
+            inkscape:label="圖層 1"
+            inkscape:groupmode="layer"
+            id="layer1">
+        <path
+                sodipodi:type="star"
+                style="fill:url(#radialGradient1187);fill-opacity:1;fill-rule:evenodd"
+                id="path263"
+                inkscape:flatsided="false"
+                sodipodi:sides="5"
+                sodipodi:cx="278.83102"
+                sodipodi:cy="192.48334"
+                sodipodi:r1="347.8042"
+                sodipodi:r2="173.9021"
+                sodipodi:arg1="0.96557878"
+                sodipodi:arg2="1.5938973"
+                inkscape:rounded="0"
+                inkscape:randomized="0"
+                d="M 476.71109,478.50998 274.81407,366.33904 67.951826,469.06556 112.24312,242.38736 -49.379555,77.393908 179.89099,49.470017 286.86493,-155.22806 384.27062,54.192226 612.00683,92.675303 442.93631,250.02805 Z"
+                transform="matrix(0.25225372,0.07982732,-0.07982732,0.25225372,52.596576,56.268758)"
+                inkscape:transform-center-x="-8.3691817"
+                inkscape:transform-center-y="0.43867559"/>
+    </g>
+</svg>

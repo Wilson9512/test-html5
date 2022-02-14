@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*
+        .star:hover{
+            fill: ''
+        }
+        */
+    </style>
+</head>
+<body>
+<div>
+    <svg width="210mm" height="297mm" version="1.1" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+            <radialGradient id="radialGradient1187" cx="281.31" cy="161.64" r="330.69"
+                            gradientTransform="matrix(1 0 0 .9582 0 6.7572)" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#ff0" offset="0"/>
+                <stop stop-color="#ff0" stop-opacity="0" offset="1"/>
+            </radialGradient>
+        </defs>
+        <path  class="star" transform="matrix(.25225 .079827 -.079827 .25225 52.597 56.269)"
+              d="m476.71 478.51-201.9-112.17-206.86 102.73 44.291-226.68-161.62-164.99 229.27-27.924 106.97-204.7 97.406 209.42 227.74 38.483-169.07 157.35z"
+              fill="url(#radialGradient1187)" fill-rule="evenodd"/>
+    </svg>
+
+    <script>
+        const star = document.querySelector('.star');
+
+        star.addEventListener('mouseover', function (){
+            // this.setAttribute('fill', 'orange');
+            this.style.fill = 'orange';
+        });
+        star.addEventListener('mouseout', function (){
+            // this.setAttribute('fill', 'url(#radialGradient1187)');
+            this.style.fill = 'url(#radialGradient1187)';
+        });
+
+    </script>
+</div>
+</body>
+</html>
